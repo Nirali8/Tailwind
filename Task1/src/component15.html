@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>file upload</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main class="w-[30vw] h-[75vh] m-auto mt-16 p-8 shadow-2xl">
+      <label for="">Send File to this email:</label><br />
+      <input
+        type="email"
+        name=""
+        id=""
+        value="example@gmail.com"
+        class="border-2 w-full mt-2 mb-3"
+      /><br />
+      <label for="" class="font-bold">Upload File</label>
+      <div class="border-2 border-dashed mt-3 text-center p-12">
+        <h1 class="font-semibold">Drop file here</h1>
+        <h4>or</h4>
+        <button
+          class="border-2 shadow-2xl p-1 font-semibold px-4 hover:bg-blue-600"
+        >
+          Browse
+        </button>
+      </div>
+      <div class="border-2 shadow-2xl mt-4 p-2 flex justify-between">
+        <p>Banner-design.png</p>
+        <i class="fa-solid fa-xmark mt-2"></i>
+      </div>
+      <div class="border-2 shadow-2xl mt-4 p-2">
+        <p class="mb-2 inline-block">Banner-design.png</p>
+        <i class="fa-solid fa-xmark ml-[220px]"></i>
+        <!-- <progress value="30" max="100">100%</progress> -->
+        <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+          <div class="bg-blue-600 h-2.5 rounded-full" style="width: 45%"></div>
+        </div>
+      </div>
+      <button class="w-full bg-blue-500 rounded-xl mt-5 p-2 hover:bg-lime-500">
+        Send File
+      </button>
+    </main>
+  </body>
+</html>
